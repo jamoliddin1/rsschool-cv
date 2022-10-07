@@ -20,7 +20,7 @@
 
 ## My Goal:
 
-I want to create applications and websites that are beneficial for humans to make life easier. When I created my first website using HTML and CSS, I was so excited that I realized this was my life's point, even when I started learning JavaScript. I don't want to give up and keep going until I reach my purpose
+I want to create applications and websites that are beneficial for humans to make life easier. When I created my first website using HTML and CSS, I was so excited that I realized this was my life's point, even when I started learning JavaScript. I don't want to give up and keep going until I reach my purpose.
 
 ___
 
