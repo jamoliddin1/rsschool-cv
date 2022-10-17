@@ -1,0 +1,236 @@
+/* Main styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(45deg, deeppink, #2980b9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  line-height: 1.5;
+}
+
+.text-decor {
+  text-decoration: none;
+}
+
+.list-style {
+  display: flex;
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  color: blue;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ .hover-effect:hover {
+  text-decoration: underline;
+}
+
+/* Navigation items */
+.navigation-items {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navigation-item {
+  padding: 0.625rem;
+}
+
+.navigation-item a {
+  color: #fff;
+}
+
+/* Container */
+.container {
+  padding: 6.25rem 9% 0;
+}
+
+/* Main content */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Profile */
+.profile {
+  align-self: flex-start;
+  position: sticky;
+  top: 20px;
+  left: 0;
+  width: 30%;
+  text-align: center;
+  padding: 1.25rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+}
+
+/* Img */
+.cv-img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.625rem;
+}
+
+/* My name */
+.my-name {
+  color: #05364d;
+}
+
+/* Profession */
+.occupation {
+  padding: 5px 0;
+  margin-bottom: 0.625rem;
+}
+
+/* Social icons */
+.social-icons {
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon a {
+  font-size: 1.5rem;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #05364d;
+  border-radius: 36px;
+  margin-right: 12px;
+  background-color: #eee;
+  transition: all .4s ease 0s;
+}
+
+.social-icon a:hover {
+  color: #fff;
+  background-image: linear-gradient(90deg,#1345e6 0%,#ed239f 100%);
+}
+
+/* Line */
+.line {
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  margin: 2rem 8px 2rem 0;
+  height: 2px;
+  width: 200px;
+  background: linear-gradient(45deg, deeppink, #2980b9);
+}
+
+/* Contacts */
+.contacts {
+  font-style: normal;
+}
+
+.contacts-items {
+  list-style: none;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contact-icons {
+  font-size: 1.5rem;
+  transition: all .4s ease 0s;
+  margin-right: 1rem;
+  color: #05364d;
+}
+
+.contacts-item:hover .contact-icons {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg,#1345e6 0%,#ed239f 100%);
+}
+
+.contacts-item a,
+.contacts-item p {
+  color: #05364d;
+  font-size: 1.125rem;
+  font-weight: bolder;
+}
+
+/* Information */
+
+.information {
+  width: 67%;
+}
+
+.information-item {
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.information-headings {
+  margin-bottom: 1rem;
+  color: #05364d;
+}
+
+.information-paragraph {
+  margin-bottom: 10px;
+}
+
+/* Skills */
+.skills-items {
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+.skills-item {
+  margin: 0 1rem 1rem 0;
+}
+
+.skills-item img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.knowledge-items {
+  margin-left: 2rem;
+  list-style: circle;
+}
+
+/* Footer */
+.main-footer {
+  background-color: #fff;
+  margin: 6.25rem 9%;
+  border-radius: 1.5rem;
+}
+
+.footer-items {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-items:first-child img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.month-year {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
