@@ -25,7 +25,7 @@
   <div class="container">
   <main class="main-content">
     <aside class="profile">
-      <img class="cv-img" src="./cv-picture.jpg" alt="cv picture">
+      <img class="cv-img" src="./src/cv-picture.jpg" alt="cv picture">
       <h1 class="my-name">Jamoliddin Chinaliyev</h1>
       <p class="occupation">Frontend Developer</p>
       <ul class="social-icons list-style">
@@ -66,13 +66,13 @@
       <section class="skills information-item" id="skills">
         <h2 class="information-headings">Skills</h2>
         <ul class="skills-items list-style">
-          <li class="skills-item"><img src="./resume/images/icon-1.png" alt="HTML"></li>
-          <li class="skills-item"><img src="./resume/images/icon-2.png" alt="CSS"></li>
-          <li class="skills-item"><img src="./resume/images/icon-10.png" alt="JavaScript"></li>
-          <li class="skills-item"><img src="./resume/images/icon-11.png" alt="Git"></li>
-          <li class="skills-item"><img src="./resume/images/icon-9.png" alt="GitHub"></li>
-          <li class="skills-item"><img src="./resume/images/icon-8.png" alt="VS Code"></li>
-          <li class="skills-item"><img src="./resume/images/icon-7.png" alt="Sublime text"></li>
+          <li class="skills-item"><img src="./src/icon-1.png" alt="HTML"></li>
+          <li class="skills-item"><img src="./src/icon-2.png" alt="CSS"></li>
+          <li class="skills-item"><img src="./src/icon-3.png" alt="JavaScript"></li>
+          <li class="skills-item"><img src="./src/icon-7.png" alt="Git"></li>
+          <li class="skills-item"><img src="./src/icon-6.png" alt="GitHub"></li>
+          <li class="skills-item"><img src="./src/icon-5.png" alt="VS Code"></li>
+          <li class="skills-item"><img src="./src/icon-4.png" alt="Sublime text"></li>
         </ul>
       </section>
 
@@ -80,7 +80,7 @@
         <h2 class="information-headings">Code Example</h2>
         <pre>
           <code>
-            const addFavoriteBook = (bookName) => {
+            function addFavoriteBook (bookName) {
               const condition = bookName.includes("Great");
               if (!condition) {
                 favoriteBooks.push(bookName);
@@ -89,7 +89,7 @@
               }
             }
             
-            const printFavoriteBooks = () => {
+            function printFavoriteBooks () {
               console.log(`Favorite Books: ${favoriteBooks.length}`);
               for (let favoriteBook of favoriteBooks) {
                 console.log(favoriteBook);
@@ -132,9 +132,9 @@
   </div>
   <footer class="main-footer">
     <ul class="footer-items list-style">
-      <li class="footer-item"><a href="https://github.com/jamoliddin1" target="_blank"><img src="./resume/images/icon-9.png" alt="My GitHub account"></a></li>
+      <li class="footer-item"><a href="https://github.com/jamoliddin1" target="_blank"><img src="./src/icon-6.png" alt="My GitHub account"></a></li>
       <li class="footer-item"><span class="month-year">Oct 2022</span></li>
-      <li class="footer-item"><a href="https://rs.school/js-en/"><img src="./resume/images/logo-rsschool.png" alt="rs school logo"></a></li>
+      <li class="footer-item"><a href="https://rs.school/js-en/"><img src="src/logo-rsschool.png" alt="rs school logo"></a></li>
     </ul>
   </footer>
 </body>
