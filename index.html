@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV HTML and CSS</title>
+  <script src="https://kit.fontawesome.com/f29eef3e38.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="main-header">
+    <nav class="navigation">
+      <ul class="navigation-items list-style">
+        <li class="navigation-item"><a class="text-decor hover-effect" href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a class="text-decor hover-effect" href="#contacts">Contacts</a></li>
+        <li class="navigation-item"><a class="text-decor hover-effect" href="#skills">Skills</a></li>
+        <li class="navigation-item"><a class="text-decor hover-effect" href="#code-example">Code example</a></li>
+        <li class="navigation-item"><a class="text-decor hover-effect" href="#project">Project</a></li>
+        <li class="navigation-item"><a class="text-decor hover-effect" href="#education">Education</a></li>
+        <li class="navigation-item"><a class="text-decor hover-effect" href="#languages">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+  <main class="main-content">
+    <aside class="profile">
+      <img class="cv-img" src="./src/cv-picture.jpg" alt="cv picture">
+      <h1 class="my-name">Jamoliddin Chinaliyev</h1>
+      <p class="occupation">Frontend Developer</p>
+      <ul class="social-icons list-style">
+        <li class="social-icon"><a href="https://github.com/jamoliddin1" target="_blank" aria-label="github" class="fa-brands fa-github text-decor"></a></li>
+        <li class="social-icon"><a href="https://www.instagram.com/jamoliddin.farid/" target="_blank" aria-label="instagram" class="fa-brands fa-instagram text-decor"></a></li>
+        <li class="social-icon"><a href="https://t.me/farid5266" target="_blank" aria-label="telegram" class="fa-brands fa-telegram text-decor"></a></li>
+      </ul>
+      <span class="line"></span>
+      <address class="contacts" id="contacts">
+        <ul class="contacts-items">
+          <li class="contacts-item">
+            <span class="contact-icons fa-regular fa-envelope"></span>
+            <a href="mailto:chinaliyevj@gmail.com" class="text-decor hover-effect">chinaliyevj@gmail.com</a>
+          </li>
+          <li class="contacts-item">
+            <span class="contact-icons fa-solid fa-phone"></span>
+            <p>+998 97 007 96 62</p>
+          </li>
+          <li class="contacts-item">
+            <span class="contact-icons fa-solid fa-location-dot"></span>
+            <p>Tashkent, Uzbekistan</p>
+          </li>
+        </ul>
+      </address>
+    </aside>
+    <div class="information">
+      <section class="about-me information-item" id="about-me">
+        <h2 class="information-headings">About Me</h2>
+        <p class="information-paragraph">
+          I want to create applications and websites that are beneficial for humans to make life easier. When I created my first website using HTML and CSS, I was so excited that I realized this was my life's point, even when I started learning JavaScript.
+        </p>
+        <p class="information-paragraph">I don't want to give up and keep going until I reach my purpose.</p>
+      </section>
+      <section class="skills information-item" id="skills">
+        <h2 class="information-headings">Skills</h2>
+        <ul class="skills-items list-style">
+          <li class="skills-item"><img src="./src/icon-1.png" alt="HTML"></li>
+          <li class="skills-item"><img src="./src/icon-2.png" alt="CSS"></li>
+          <li class="skills-item"><img src="./src/icon-3.png" alt="JavaScript"></li>
+          <li class="skills-item"><img src="./src/icon-7.png" alt="Git"></li>
+          <li class="skills-item"><img src="./src/icon-6.png" alt="GitHub"></li>
+          <li class="skills-item"><img src="./src/icon-5.png" alt="VS Code"></li>
+          <li class="skills-item"><img src="./src/icon-4.png" alt="Sublime text"></li>
+        </ul>
+      </section>
+      <section class="code-example information-item" id="code-example">
+        <h2 class="information-headings">Code Example</h2>
+        <pre>
+          <code>
+            function addFavoriteBook (bookName) {
+              const condition = bookName.includes("Great");
+              if (!condition) {
+                favoriteBooks.push(bookName);
+              } else {
+                return [];
+              }
+            }
+            function printFavoriteBooks () {
+              console.log(`Favorite Books: ${favoriteBooks.length}`);
+              for (let favoriteBook of favoriteBooks) {
+                console.log(favoriteBook);
+              }
+            }
+            let favoriteBooks = [];
+            addFavoriteBook("A Song of Ice and Fire");
+            addFavoriteBook("The Great Gatsby");
+            addFavoriteBook("Crime and Punishment");
+            printFavoriteBooks();
+          </code>
+        </pre>
+      </section>
+      <section class="project information-item" id="project">
+        <h2 class="information-headings">Project</h2>
+        <a href="#" class="text-decor hover-effect">RS School CV Project</a>
+      </section>
+      <section class="education information-item" id="education">
+        <h2 class="information-headings">Education and Courses</h2>
+        <ul class="knowledge-items">
+          <li class="knowledge-item"><a href="https://frontendmasters.com/" target="_blank" class="text-decor hover-effect">FrontendMasters</a></li>
+          <li class="knowledge-item">HTML and CSS Tutorials on <a href="http://youtube.com/" target="_blank" class="text-decor hover-effect">YouTube.com</a> and <a href="https://w3schools.com/" target="_blank" class="text-decor hover-effect">W3Schools.com</a></li>
+          <li class="knowledge-item"><a href="https://javascript.info/" target="_blank" class="text-decor hover-effect">javascript.info</a> and <a href="https://rs.school/js-en/" target="_blank" class="text-decor hover-effect">RS School</a></li>
+        </ul>
+      </section>
+      <section class="languages information-item" id="languages">
+        <h2 class="information-headings">Languages</h2>
+        <ul class="knowledge-items">
+          <li class="knowledge-item">Uzbek - Native</li>
+          <li class="knowledge-item">English - Intermediate (B1+)</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  </div>
+  <footer class="main-footer">
+    <ul class="footer-items list-style">
+      <li class="footer-item"><a href="https://github.com/jamoliddin1" target="_blank" aria-label="github account" ><img src="./src/icon-6.png" alt="My GitHub account"></a></li>
+      <li class="footer-item"><span class="month-year">Oct 2022</span></li>
+      <li class="footer-item"><a href="https://rs.school/js-en/" target="_blank" aria-label="rs school logo"><img src="src/logo-rsschool.png" alt="rs school logo"></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
